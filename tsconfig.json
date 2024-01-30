@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "declaration": true,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "src/i18n/**/*.json"],
+  "exclude": ["**/__tests__", "**/__mocks__", "**/__fixtures__", "node_modules"]
+}
